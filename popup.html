@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        width: max-content;
+        height: 245px;
+      }
+      html {
+        line-height:1.5;
+        font-size:1em;
+      }
+      html::after {
+        content:'';
+        background: linear-gradient(21deg, #10abff, #1beabd);
+        height:3px;
+        width:100%;
+        position:absolute;
+        left:0;
+        top:0;
+      }
+      .form-control {
+        width: 126px !important;
+      }
+      .form-row {
+        padding: 16px 11px 5px 11px !important;
+      }
+      #buttonSave {
+        background-image: linear-gradient(#16a9f9, #36cad9 ) !important;
+        border-color: #3bced5 !important;
+      }
+      .defined-colors {
+        width: 46%;
+        display: inline-block;
+        height: 73px;
+        background: red;
+        border-radius: 5px;
+        border: none !important;
+        width: 220px;
+      }
+      .color-left {
+        margin-left: 18px;
+      }
+      .color-right {
+        margin-left: 11px;
+      }
+      .color-blocks-container {
+        margin-top: 5px;
+        margin-bottom: 10px;
+        max-width: 492px;
+      }
+    </style>
+
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap-colorpicker/dist/css/bootstrap-colorpicker.min.css">
+  </head>
+  <body>
+      <form>
+        <div class="form-row align-items-center">
+          <div class="col-auto">
+            <input autocomplete="off" type="text" class="form-control mb-2" id="firstColor" placeholder="color #1">
+          </div>
+          <div class="col-auto">
+            <input autocomplete="off" type="text" class="form-control mb-2" id="secondColor" placeholder="color #2">
+          </div>
+          <div class="col-auto">
+            <input autocomplete="off" type="text" class="form-control mb-2" id="thirdColor" placeholder="color #3">
+          </div>
+          <div class="col-auto">
+            <button id="buttonSave" class="btn btn-primary mb-2">Save</button>
+          </div>
+        </div>
+      </form>
+      <div class="color-blocks-container">
+        <button class="btn btn-primary defined-colors color-left" style="background: linear-gradient(to right, #8a2387, #e94057, #f27121);"></button>
+        <button class="btn btn-primary defined-colors color-right" style="background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);"></button>
+      </div>
+      <div class="color-blocks-container">
+        <button class="btn btn-primary defined-colors color-left" style="background: linear-gradient(to right, #59c173, #a17fe0, #5d26c1);"></button>
+        <button class="btn btn-primary defined-colors color-right" style="background: linear-gradient(to right, #40e0d0, #ff8c00, #ff0080);"></button>
+      </div>
+      <div class="color-blocks-container">
+        <button class="btn btn-primary defined-colors color-left" style="background: linear-gradient(to right, #ef32d9, #c033ed, #89fffd);"></button>
+        <button class="btn btn-primary defined-colors color-right" style="background: linear-gradient(to right, #fff308, #ffbf1e, #db36a4);"></button>
+      </div>
+      <div class="color-blocks-container">
+        <button class="btn btn-primary defined-colors color-left" style="background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);"></button>
+        <button class="btn btn-primary defined-colors color-right" style="background: linear-gradient(to right, #03001e, #7303c0, #ec38bc);"></button>
+      </div>
+      <div class="color-blocks-container">
+        <button class="btn btn-primary defined-colors color-left" style="background: linear-gradient(to right, #060606, #fdfdfd, #080808);"></button>
+        <button class="btn btn-primary defined-colors color-right" style="background: linear-gradient(to right, #000000, #1362a5, #000000);"></button>
+      </div>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="node_modules/bootstrap-colorpicker/dist/js/bootstrap-colorpicker.min.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>
