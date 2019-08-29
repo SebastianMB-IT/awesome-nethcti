@@ -29,3 +29,6 @@ https://developer.chrome.com/extensions/getstarted
 6) Wait for review
 ---------------------------
 Enjoy your NethCTI!
+
+[Privacy Policy](https://sebastianmb-it.github.io/awesome-nethcti/PRIVACY.html)
+[Licence](https://sebastianmb-it.github.io/awesome-nethcti/LICENCE)
