@@ -30,5 +30,5 @@ https://developer.chrome.com/extensions/getstarted
 ---------------------------
 Enjoy your NethCTI!
 
-[Privacy Policy](https://sebastianmb-it.github.io/awesome-nethcti/PRIVACY.html)
+[Privacy Policy](https://sebastianmb-it.github.io/awesome-nethcti/PRIVACY.html) - 
 [Licence](https://sebastianmb-it.github.io/awesome-nethcti/LICENCE)
