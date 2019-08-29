@@ -14,7 +14,7 @@ For a better experience, while using our Service, I may require you to provide u
 
 The app does use third party services that may collect information used to identify you.
 
-https://policies.google.com/privacy
+[Google](https://policies.google.com/privacy)
 
 **Log Data**
 
