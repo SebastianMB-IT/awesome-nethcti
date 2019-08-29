@@ -28,4 +28,4 @@ https://developer.chrome.com/extensions/getstarted
 5) Make commits and pull request
 6) Wait for review
 ---------------------------
-Enjoy your NethCTI
+Enjoy your NethCTI!
