@@ -8,7 +8,7 @@ $( document ).ready(function() {
     let colors = [
         {
             "name": "Omolon",
-            "colors": ["#091E3A", "#2F80ED", "2D9EE0"]
+            "colors": ["#091E3A", "#2F80ED", "#2D9EE0"]
         },
         {
             "name": "Farhan",
@@ -24,7 +24,7 @@ $( document ).ready(function() {
         },
         {
             "name": "Radioactive Heat",
-            "colors": ["#F7941E", "#72C6EF", "00A651"]
+            "colors": ["#F7941E", "#72C6EF", "#00A651"]
         }, 
         {
             "name": "The Sky And The Sea",
